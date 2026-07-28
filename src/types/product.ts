@@ -7,6 +7,7 @@ export interface ProductVariant {
   compareAtPrice?: number;
   available: boolean;
   sku: string;
+  inventory?: number;
 }
 
 export interface ProductImage {

@@ -2,10 +2,8 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
-import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
+import SiteChrome from "@/components/SiteChrome";
 import { CartProvider } from "@/components/cart/CartContext";
-import CartDrawer from "@/components/cart/CartDrawer";
 import { WishlistProvider } from "@/components/wishlist/WishlistContext";
 import { isClerkConfigured } from "@/lib/auth-config";
 
@@ -98,10 +96,7 @@ export default function RootLayout({
         />
         <WishlistProvider>
           <CartProvider>
-            <Nav />
-            <main className="flex-1">{children}</main>
-            <Footer />
-            <CartDrawer />
+            <SiteChrome>{children}</SiteChrome>
           </CartProvider>
         </WishlistProvider>
       </body>

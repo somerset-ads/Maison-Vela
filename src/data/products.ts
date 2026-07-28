@@ -27,9 +27,9 @@ export const products: Product[] = [
       { url: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=1600", alt: "The Riviera card holder detail, hand-stitched edge", width: 1600, height: 2000 },
     ],
     variants: [
-      { id: "gid://shopify/ProductVariant/1", title: "Sand", color: "Sand", colorHex: "#DCCDB8", price: 145, available: true, sku: "MV-RIV-SAND" },
-      { id: "gid://shopify/ProductVariant/2", title: "Charcoal", color: "Charcoal", colorHex: "#232323", price: 145, available: true, sku: "MV-RIV-CHAR" },
-      { id: "gid://shopify/ProductVariant/3", title: "Olive", color: "Olive", colorHex: "#69715E", price: 145, available: true, sku: "MV-RIV-OLIVE" },
+      { id: "gid://shopify/ProductVariant/1", title: "Sand", color: "Sand", colorHex: "#DCCDB8", price: 145, available: true, sku: "MV-RIV-SAND", inventory: 42 },
+      { id: "gid://shopify/ProductVariant/2", title: "Charcoal", color: "Charcoal", colorHex: "#232323", price: 145, available: true, sku: "MV-RIV-CHAR", inventory: 31 },
+      { id: "gid://shopify/ProductVariant/3", title: "Olive", color: "Olive", colorHex: "#69715E", price: 145, available: true, sku: "MV-RIV-OLIVE", inventory: 18 },
     ],
   },
   {
@@ -51,8 +51,8 @@ export const products: Product[] = [
       { url: "https://images.unsplash.com/photo-1611010344444-5f9e4d86a6e0?q=80&w=1600", alt: "The Amalfi wallet open, showing card slots", width: 1600, height: 2000 },
     ],
     variants: [
-      { id: "gid://shopify/ProductVariant/4", title: "Charcoal", color: "Charcoal", colorHex: "#232323", price: 185, available: true, sku: "MV-AMA-CHAR" },
-      { id: "gid://shopify/ProductVariant/5", title: "Sand", color: "Sand", colorHex: "#DCCDB8", price: 185, available: true, sku: "MV-AMA-SAND" },
+      { id: "gid://shopify/ProductVariant/4", title: "Charcoal", color: "Charcoal", colorHex: "#232323", price: 185, available: true, sku: "MV-AMA-CHAR", inventory: 24 },
+      { id: "gid://shopify/ProductVariant/5", title: "Sand", color: "Sand", colorHex: "#DCCDB8", price: 185, available: true, sku: "MV-AMA-SAND", inventory: 16 },
     ],
   },
   {
@@ -74,8 +74,8 @@ export const products: Product[] = [
       { url: "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?q=80&w=1600", alt: "The Cassis detail, steel clip", width: 1600, height: 2000 },
     ],
     variants: [
-      { id: "gid://shopify/ProductVariant/6", title: "Olive", color: "Olive", colorHex: "#69715E", price: 155, available: true, sku: "MV-CAS-OLIVE" },
-      { id: "gid://shopify/ProductVariant/7", title: "Charcoal", color: "Charcoal", colorHex: "#232323", price: 155, available: false, sku: "MV-CAS-CHAR" },
+      { id: "gid://shopify/ProductVariant/6", title: "Olive", color: "Olive", colorHex: "#69715E", price: 155, available: true, sku: "MV-CAS-OLIVE", inventory: 12 },
+      { id: "gid://shopify/ProductVariant/7", title: "Charcoal", color: "Charcoal", colorHex: "#232323", price: 155, available: false, sku: "MV-CAS-CHAR", inventory: 0 },
     ],
   },
   {
@@ -96,7 +96,7 @@ export const products: Product[] = [
       { url: "https://images.unsplash.com/photo-1553531384-cc64ac80f931?q=80&w=1600", alt: "The Porto travel document holder in sand leather", width: 1600, height: 2000 },
     ],
     variants: [
-      { id: "gid://shopify/ProductVariant/8", title: "Sand", color: "Sand", colorHex: "#DCCDB8", price: 210, available: true, sku: "MV-POR-SAND" },
+      { id: "gid://shopify/ProductVariant/8", title: "Sand", color: "Sand", colorHex: "#DCCDB8", price: 210, available: true, sku: "MV-POR-SAND", inventory: 27 },
     ],
   },
 ];

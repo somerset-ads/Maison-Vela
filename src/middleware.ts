@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 import { isClerkConfigured } from "@/lib/auth-config";
 
-const isProtectedRoute = createRouteMatcher(["/account(.*)"]);
+const isProtectedRoute = createRouteMatcher(["/account(.*)", "/admin(.*)"]);
 
 // Falls back to a no-op middleware when Clerk keys aren't set, so the site
 // still runs locally before auth is configured (see src/lib/auth-config.ts).
