@@ -89,6 +89,14 @@ src/
   middleware.ts               Clerk route protection for /account and /admin
 ```
 
+## Mobile app
+
+The `maison-vela-app` Expo project (sibling directory) is a companion mobile app
+sharing this same Shopify/Stripe backend. `/api/mobile-checkout` in this project
+creates a Stripe PaymentIntent for the app's native PaymentSheet (Apple Pay /
+Google Pay) — separate from `/api/checkout`, which creates a hosted Checkout
+Session for the web storefront. Both read the same `STRIPE_SECRET_KEY`.
+
 ## Admin dashboard
 
 `/admin` is a role-gated back office: overview stats, revenue/top-product analytics
