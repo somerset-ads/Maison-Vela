@@ -6,8 +6,8 @@ export default function LifestyleBanner() {
     <section className="grid grid-cols-1 md:grid-cols-2">
       <div className="relative h-[70vh] min-h-[420px]">
         <Image
-          src="https://images.unsplash.com/photo-1533603208986-5aab7e2f2e0f?q=80&w=1800"
-          alt="Coastal terrace overlooking the Mediterranean, linen and espresso on a stone table"
+          src="/brand/lifestyle.svg"
+          alt="Illustrated Mediterranean coastal terrace at dusk, with an espresso cup and olive branch"
           fill
           sizes="50vw"
           className="object-cover"

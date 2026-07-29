@@ -1,0 +1,49 @@
+<svg width="1920" height="1200" viewBox="0 0 1920 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#69715E"/>
+      <stop offset="45%" stop-color="#BDA57A"/>
+      <stop offset="100%" stop-color="#DCCDB8"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#23232366"/>
+      <stop offset="100%" stop-color="#232323"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1200" fill="url(#sky)"/>
+
+  <!-- sun, kept to the right third so it never sits behind the headline copy
+       (which is placed bottom-left — see Hero.tsx) -->
+  <circle cx="1500" cy="420" r="200" fill="#F8F6F2" opacity="0.9"/>
+
+  <!-- horizon -->
+  <rect x="0" y="720" width="1920" height="480" fill="url(#sea)"/>
+  <line x1="0" y1="720" x2="1920" y2="720" stroke="#F8F6F2" stroke-width="2" opacity="0.6"/>
+
+  <!-- sun reflection on the water, directly below the sun -->
+  <g opacity="0.25">
+    <rect x="1440" y="730" width="120" height="6" fill="#F8F6F2"/>
+    <rect x="1420" y="750" width="160" height="6" fill="#F8F6F2"/>
+    <rect x="1450" y="772" width="100" height="6" fill="#F8F6F2"/>
+    <rect x="1400" y="796" width="200" height="6" fill="#F8F6F2"/>
+    <rect x="1440" y="822" width="120" height="6" fill="#F8F6F2"/>
+  </g>
+
+  <!-- distant coastline arches (loggia silhouette), bottom edge -->
+  <g fill="#161613">
+    <path d="M0,1200 L0,1040 Q60,980 120,1040 L120,1200 Z"/>
+    <path d="M120,1200 L120,1040 Q180,980 240,1040 L240,1200 Z"/>
+    <path d="M240,1200 L240,1040 Q300,980 360,1040 L360,1200 Z"/>
+    <path d="M1560,1200 L1560,1040 Q1620,980 1680,1040 L1680,1200 Z"/>
+    <path d="M1680,1200 L1680,1040 Q1740,980 1800,1040 L1800,1200 Z"/>
+    <path d="M1800,1200 L1800,1040 Q1860,980 1920,1040 L1920,1200 Z"/>
+  </g>
+
+  <!-- birds, upper-left, away from the sun -->
+  <g stroke="#232323" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round">
+    <path d="M300,260 q18,-16 36,0 q18,-16 36,0"/>
+    <path d="M380,320 q16,-14 32,0 q16,-14 32,0"/>
+    <path d="M220,340 q14,-12 28,0 q14,-12 28,0"/>
+  </g>
+</svg>

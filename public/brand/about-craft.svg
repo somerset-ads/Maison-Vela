@@ -1,0 +1,37 @@
+<svg width="960" height="1200" viewBox="0 0 960 1200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="1200" fill="#F8F6F2"/>
+  <rect x="0" y="0" width="960" height="1200" fill="#DCCDB8" opacity="0.25"/>
+
+  <!-- leather swatch -->
+  <rect x="120" y="150" width="500" height="360" rx="16" fill="#69715E" stroke="#232323" stroke-width="2"/>
+  <g stroke="#F8F6F2" stroke-width="1" opacity="0.25">
+    <line x1="150" y1="200" x2="590" y2="230"/>
+    <line x1="150" y1="260" x2="590" y2="290"/>
+    <line x1="150" y1="320" x2="590" y2="350"/>
+    <line x1="150" y1="380" x2="590" y2="410"/>
+    <line x1="150" y1="440" x2="590" y2="470"/>
+  </g>
+
+  <!-- thread spool -->
+  <g transform="translate(720,260)">
+    <rect x="-40" y="-90" width="80" height="180" rx="14" fill="#BDA57A" stroke="#232323" stroke-width="2"/>
+    <ellipse cx="0" cy="-90" rx="40" ry="12" fill="#F8F6F2" stroke="#232323" stroke-width="2"/>
+    <ellipse cx="0" cy="90" rx="40" ry="12" fill="#F8F6F2" stroke="#232323" stroke-width="2"/>
+  </g>
+
+  <!-- awl -->
+  <g transform="translate(300,700) rotate(-25)" stroke="#232323" stroke-width="3" fill="none" stroke-linecap="round">
+    <line x1="0" y1="0" x2="360" y2="0"/>
+    <circle cx="-30" cy="0" r="26" fill="#69715E" stroke="#232323"/>
+  </g>
+
+  <!-- scissors -->
+  <g transform="translate(650,760)" stroke="#232323" stroke-width="3" fill="none" stroke-linecap="round">
+    <line x1="-10" y1="-10" x2="150" y2="-90"/>
+    <line x1="-10" y1="10" x2="150" y2="90"/>
+    <circle cx="-10" cy="-10" r="16"/>
+    <circle cx="-10" cy="10" r="16"/>
+  </g>
+
+  <line x1="120" y1="960" x2="700" y2="960" stroke="#232323" stroke-width="1" opacity="0.15"/>
+</svg>

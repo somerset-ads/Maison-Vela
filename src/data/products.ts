@@ -23,8 +23,8 @@ export const products: Product[] = [
     materials: ["Full-grain Italian leather", "Waxed cotton thread", "Hand-burnished edges"],
     dimensions: "9.6 × 6.8 cm, 4mm thick (empty)",
     images: [
-      { url: "https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=1600", alt: "The Riviera card holder in sand leather on linen", width: 1600, height: 2000 },
-      { url: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=1600", alt: "The Riviera card holder detail, hand-stitched edge", width: 1600, height: 2000 },
+      { url: "/brand/product-riviera-1.svg", alt: "The Riviera card holder in sand leather, illustrated against a European-summer sunset", width: 960, height: 1200 },
+      { url: "/brand/product-riviera-2.svg", alt: "The Riviera card holder detail, hand-stitched edge", width: 960, height: 1200 },
     ],
     variants: [
       { id: "gid://shopify/ProductVariant/1", title: "Sand", color: "Sand", colorHex: "#DCCDB8", price: 145, available: true, sku: "MV-RIV-SAND", inventory: 42 },
@@ -47,8 +47,8 @@ export const products: Product[] = [
     materials: ["Full-grain Italian leather", "Waxed cotton thread"],
     dimensions: "11 × 9 cm folded",
     images: [
-      { url: "https://images.unsplash.com/photo-1591561954557-26941169b49e?q=80&w=1600", alt: "The Amalfi bifold wallet in charcoal leather", width: 1600, height: 2000 },
-      { url: "https://images.unsplash.com/photo-1611010344444-5f9e4d86a6e0?q=80&w=1600", alt: "The Amalfi wallet open, showing card slots", width: 1600, height: 2000 },
+      { url: "/brand/product-amalfi-1.svg", alt: "The Amalfi bifold wallet in charcoal leather, illustrated open with note pocket", width: 960, height: 1200 },
+      { url: "/brand/product-amalfi-2.svg", alt: "The Amalfi wallet stitching detail", width: 960, height: 1200 },
     ],
     variants: [
       { id: "gid://shopify/ProductVariant/4", title: "Charcoal", color: "Charcoal", colorHex: "#232323", price: 185, available: true, sku: "MV-AMA-CHAR", inventory: 24 },
@@ -70,8 +70,8 @@ export const products: Product[] = [
     materials: ["Full-grain Italian leather", "Sleeved spring-steel clip"],
     dimensions: "9.8 × 7 cm, 6mm thick (empty)",
     images: [
-      { url: "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?q=80&w=1600", alt: "The Cassis money clip card holder in olive leather", width: 1600, height: 2000 },
-      { url: "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?q=80&w=1600", alt: "The Cassis detail, steel clip", width: 1600, height: 2000 },
+      { url: "/brand/product-cassis-1.svg", alt: "The Cassis money clip card holder in olive leather, illustrated", width: 960, height: 1200 },
+      { url: "/brand/product-cassis-2.svg", alt: "The Cassis detail, steel clip", width: 960, height: 1200 },
     ],
     variants: [
       { id: "gid://shopify/ProductVariant/6", title: "Olive", color: "Olive", colorHex: "#69715E", price: 155, available: true, sku: "MV-CAS-OLIVE", inventory: 12 },
@@ -93,7 +93,7 @@ export const products: Product[] = [
     materials: ["Full-grain Italian leather", "Elastic document strap"],
     dimensions: "14.5 × 10 cm",
     images: [
-      { url: "https://images.unsplash.com/photo-1553531384-cc64ac80f931?q=80&w=1600", alt: "The Porto travel document holder in sand leather", width: 1600, height: 2000 },
+      { url: "/brand/product-porto-1.svg", alt: "The Porto travel document holder in sand leather, illustrated", width: 960, height: 1200 },
     ],
     variants: [
       { id: "gid://shopify/ProductVariant/8", title: "Sand", color: "Sand", colorHex: "#DCCDB8", price: 210, available: true, sku: "MV-POR-SAND", inventory: 27 },

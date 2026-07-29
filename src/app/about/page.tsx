@@ -14,8 +14,7 @@ export default function AboutPage() {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-80"
           style={{
-            backgroundImage:
-              "url('https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?q=80&w=2400')",
+            backgroundImage: "url('/brand/about-hero.svg')",
           }}
         />
         <div className="container-edit relative z-10 pb-16 text-warm-white">
@@ -47,8 +46,8 @@ export default function AboutPage() {
         </div>
         <div className="relative aspect-[4/5]">
           <Image
-            src="https://images.unsplash.com/photo-1509281373149-e957c6296406?q=80&w=1600"
-            alt="Leather craftsman hand-stitching a card holder in an Italian workshop"
+            src="/brand/about-craft.svg"
+            alt="Illustrated flat-lay of leather-working tools: a hide swatch, thread spool, awl, and scissors"
             fill
             className="object-cover"
           />

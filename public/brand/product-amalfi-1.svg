@@ -1,0 +1,22 @@
+<svg width="960" height="1200" viewBox="0 0 960 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DCCDB8"/>
+      <stop offset="100%" stop-color="#69715E"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="1200" fill="url(#bgA)"/>
+
+  <line x1="0" y1="760" x2="960" y2="760" stroke="#F8F6F2" stroke-width="1" opacity="0.2"/>
+  <circle cx="270" cy="600" r="180" fill="#BDA57A" opacity="0.3"/>
+
+  <ellipse cx="480" cy="1030" rx="260" ry="26" fill="#161613" opacity="0.2"/>
+
+  <!-- bifold open, note pocket peeking -->
+  <rect x="290" y="740" width="200" height="260" rx="10" fill="#F8F6F2" opacity="0.85" transform="rotate(-3 390 870)"/>
+  <rect x="290" y="820" width="380" height="220" rx="18" fill="#232323" stroke="#161613" stroke-width="2.5"/>
+  <rect x="480" y="820" width="190" height="220" rx="18" fill="#2c2c2c" stroke="#161613" stroke-width="2.5"/>
+  <line x1="480" y1="820" x2="480" y2="1040" stroke="#161613" stroke-width="2"/>
+  <line x1="330" y1="900" x2="440" y2="900" stroke="#BDA57A" stroke-width="1" stroke-dasharray="3 6" opacity="0.6"/>
+  <line x1="520" y1="900" x2="630" y2="900" stroke="#BDA57A" stroke-width="1" stroke-dasharray="3 6" opacity="0.6"/>
+</svg>

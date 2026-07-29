@@ -38,19 +38,27 @@ export default function NewsletterForm({ compact = false }: { compact?: boolean 
           Join our list for early access to new arrivals and considered notes on craft.
         </p>
       )}
-      <div className="flex border-b border-charcoal/30 focus-within:border-charcoal">
+      <div className={compact ? "flex flex-col gap-2" : "flex border-b border-charcoal/30 focus-within:border-charcoal"}>
         <input
           type="email"
           required
           placeholder="Email address"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full bg-transparent py-2 text-sm placeholder:text-charcoal/40 focus:outline-none"
+          className={
+            compact
+              ? "min-w-0 border-b border-charcoal/30 bg-transparent py-2 text-sm placeholder:text-charcoal/40 focus:border-charcoal focus:outline-none"
+              : "min-w-0 flex-1 bg-transparent py-2 text-sm placeholder:text-charcoal/40 focus:outline-none"
+          }
         />
         <button
           type="submit"
           disabled={status === "loading"}
-          className="shrink-0 text-xs uppercase tracking-widest2 text-olive hover:text-charcoal disabled:opacity-50"
+          className={
+            compact
+              ? "self-start text-xs uppercase tracking-widest2 text-olive hover:text-charcoal disabled:opacity-50"
+              : "shrink-0 text-xs uppercase tracking-widest2 text-olive hover:text-charcoal disabled:opacity-50"
+          }
         >
           {status === "loading" ? "Sending" : "Subscribe"}
         </button>
