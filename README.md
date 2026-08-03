@@ -87,6 +87,14 @@ src/
     journal.ts, orders.ts      Blog posts, demo order history (storefront)
     admin.ts                   Demo orders/customers/discounts/revenue (admin dashboard)
   middleware.ts               Clerk route protection for /account and /admin
+.claude/
+  launch.json               Local launch/dev-server config for Claude Code
+  agents/                   Role-based agent definitions Claude Code uses when
+                            working in this project
+    developer.md            Storefront build, POD/fulfillment integration, payments
+    designer.md              Print designs, brand identity, mockups, packaging
+    marketing.md              Ads, social, content/SEO, email, launches
+    operations.md             Fulfillment oversight, customer service, finance, pricing
 ```
 
 ## Mobile app
